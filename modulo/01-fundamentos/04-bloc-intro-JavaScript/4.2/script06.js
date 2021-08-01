@@ -9,7 +9,10 @@ for (ind = 0; ind < numbers.length; ind += 1) {
    
     if (numbers[ind] % 2 == 1) {
     numeroImpar ++; 
-    console.log("Total de números impares: " + numeroImpar);
     }
+    if (numeroImpar === 0) {
+        console.log("nenhum valor ímpar encontrado")
+    }
+    
 }
-
+console.log("Total de números impares: " + numeroImpar);
