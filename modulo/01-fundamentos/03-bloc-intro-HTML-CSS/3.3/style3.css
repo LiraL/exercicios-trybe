@@ -1,0 +1,9 @@
+p, h1 {
+    text-align: center;
+   
+}
+li:hover {
+    background-color: cyan;
+    font-family: sans-serif;
+    list-style: none;
+}
