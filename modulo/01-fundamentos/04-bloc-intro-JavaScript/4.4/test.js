@@ -42,12 +42,13 @@ let car = {
   for (let imprime in car) {
       console.log(imprime, car[imprime])
   };
-  */
+  *//*
 
 
 var a = 2;
 var b = 3;
 
 function soma (a, b) {
-    return a+ b;
+    return a + b;
 }
+*/
