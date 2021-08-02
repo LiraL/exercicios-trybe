@@ -7,7 +7,7 @@ let fruits = [3, 4, 10, 1, 12];
 let result = 0;
 
 for (ind = 0; ind < fruits.length; ind += 1) {
-    result = result + fruits[ind];
+    result = result + fruits[ind]; 
 }
     
     if (result > 15) {
